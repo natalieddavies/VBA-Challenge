@@ -2,12 +2,12 @@
 
 Sub ticker()
 
-  ' Set an initial variable for holding the brand name
+' Set an initial variable for holding the brand name
   Dim ticker As String
   Dim summary_table_row As Integer
   Dim Lastrow As Long
   
-  ' Set Row Header
+' Set Row Header
   Cells(1, 9).Value = "Ticker"
   Cells(1, 10).Value = "Yearly Change"
   Cells(1, 11).Value = "Percent Change"
